@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Rishabh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      body {
+        background: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins',sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background: rgb(50, 50, 122);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+        
+      }
+      nav ul li{
+        color: brown;
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white
+      }
+      nav ul li a:hover{
+        color: rgb(118, 118, 191);
+        
+      }
+      main hr{
+        border: 0;
+        background-color: #7f37c6;
+        height: 1px;
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      .firstSection{
+        
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+        align-items: center;
+      }
+      .firstSection div{
+        width: 30%;
+      }
+      .leftSection{
+        font-family: 'Poppins' , Arial, Helvetica, sans-serif;
+        margin: 90px 0;
+        width: 50%;
+        font-size: 2.5rem;
+      }
+      .rightSection{
+        
+        width: 50%;
+      }
+      .rightSection img{
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple{
+        color: blueviolet;
+      }
+      #element{
+        color: blueviolet;
+      }
+      .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1{
+        font-size: 1.8rem;
+      }
+      .secondSection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        width: 150px;
+        font-size: 10px;
+        color: grey;
+
+      }
+      footer{
+        background: rgb(33, 37, 116);
+        height: 233px;
+      }
+      .footer{
+        display: flex;
+        margin: 23px 23px;
+        justify-content: space-evenly;
+      }
+      .footer-first{
+        margin: 4px 0;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rishabh's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact Me</a></li>
+                
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is 
+                <span class="purple">Rishabh</span><br>
+                and I am a passionate 
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="./images/bg.png" alt="Developer images">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far.</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+               <div class="vertical">
+                <img class="image-top" src="./images/facebook-logo.png" alt="">
+                <div class="vertical-title">
+                    Software Developer - Facebook
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam earum, dolorem ea illo vel molestias explicabo, est fuga quam repellat cumque neque perspiciatis quaerat enim deserunt blanditiis fugit aliquid.
+                </div>
+               </div>
+               <div class="vertical">
+                <img class="image-top" src="./images/google-logo.png" alt="">
+                <div class="vertical-title">
+                    Software Developer - Google
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam earum, dolorem ea illo vel molestias explicabo, est fuga quam repellat cumque neque perspiciatis quaerat enim deserunt blanditiis fugit aliquid.
+                </div>
+               </div>
+               <div class="vertical">
+                <img class="image-top" src="./images/Netflix_logo.png" alt="">
+                <div class="vertical-title">
+                    Software Developer - Netflix
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam earum, dolorem ea illo vel molestias explicabo, est fuga quam repellat cumque neque perspiciatis quaerat enim deserunt blanditiis fugit aliquid.
+                </div>
+               </div>
+               <div class="vertical">
+                <img class="image-top" src="./images/yt-logo.png" alt="">
+                <div class="vertical-title">
+                    Software Developer - YouTube
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam earum, dolorem ea illo vel molestias explicabo, est fuga quam repellat cumque neque perspiciatis quaerat enim deserunt blanditiis fugit aliquid.
+                </div>
+               </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Rishabh's Developer Portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Project</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Blockchain Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+
+  </body>
+</html>
